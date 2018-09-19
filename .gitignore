@@ -1,5 +1,8 @@
-Simple Blink/.ccsproject
-Simple Blink/.cproject
-Simple Blink/.projectSimple Blink/.settings/
-Simple Blink/lnk_msp430g2533.cmd
-Simple Blink/targetConfigs/
+*/.ccsproject
+*/.cproject
+*/lnk_msp430g2533.cmd
+*/targetConfigs/
+*/.launches/
+*/.project
+*/.settings/
+*/Debug/

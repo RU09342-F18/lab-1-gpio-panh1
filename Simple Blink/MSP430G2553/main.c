@@ -1,6 +1,6 @@
 #include <msp430.h> 
 
-// Simple Blink
+// Simple Blink for G2
 
 int main(void)
 {

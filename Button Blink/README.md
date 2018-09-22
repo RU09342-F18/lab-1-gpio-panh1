@@ -1,18 +1,18 @@
-# Button Blink
-Now that you have looked at blinking the LED from some built in delay, but what if we wanted to control the state of the LED by a button? You may think "Why would I need a Microcontroller to perform the job of a switch?". And that is where you come in. The bare minimum for this part of the lab is to essentially replicate a switch with your development board.
+# Lab Exercise 1: Blinking LEDs
 
-# YOU NEED TO CREATE THE FOLLOWING FOLDERS
-* MSP430G2553
-* MSP(FILL IN THE PROCESSOR YOU ARE USING)
+           Created On: Sept 14, 2018
+          Last Edited: Sept 21, 2018
+               Author: Helen Pan
+    Dependent Library: msp430.h
 
-## README
-Remember to replace this README with your README once you are ready to submit. I would recommend either making a copy of this file or taking a screen shot. There might be a copy of all of these README's in a folder on the top level depending on the exercise. Make sure you talk about how your button is configured (momentary or continuous. Normally open or closed. Does the button press indicate when the LED should be on or off.)
+### Goal
 
-## Extra Work
-What can we do to make this a little bit more worthy of needing a microcontroller.
+The goal of this lab part C is to control the blinking of at least one LED by pressing a BUTTON on each of the boards.
 
-### Button Based Speed Control
-Much like the UART controlled speed, what if you could cycle between speeds based on a button press? The speed could progress through a cycle of "Off-Slow-Medium-Fast" looping back when you hit the end.
+### Code Run-Down
 
-### Color Change
-What if upon a button press, the LED which was blinking changed. Some of the development boards contain two LEDs, so you could swap between a Red and a Green LED.
+The function of each line of code is commented in each respective main.c files.
+
+### MSP430 G2 Vs. 5529 Boards
+
+There was one differences in coding between G2 and 5529 such that the BUTTON is set to port P1.3 on the G2 while it is set to port P1.1 on 5529. The similarity between them is that the blinking LED is set to port P1.0 on both boards.  

@@ -1,6 +1,6 @@
 #include <msp430.h> 
 
-// Button Blink,  wasn't able to test on CCS
+// Button Blink for 5529,  wasn't able to test on CCS
 
 int main(void)
 {

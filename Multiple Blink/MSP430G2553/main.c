@@ -1,6 +1,6 @@
 #include <msp430.h> 
 
-// Multiple Blink
+// Multiple Blink for G2
 
 int main(void)
 {

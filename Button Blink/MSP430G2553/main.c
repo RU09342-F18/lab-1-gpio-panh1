@@ -1,6 +1,6 @@
 #include <msp430.h> 
 
-// Button Blink 
+// Button Blink for G2
 
 int main(void)
 {

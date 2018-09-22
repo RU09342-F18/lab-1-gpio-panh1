@@ -1,6 +1,6 @@
 #include <msp430.h> 
 
-// Simple Blink, wasn't able to test on CCS
+// Simple Blink for 5529, wasn't able to test on CCS
 
 int main(void)
 {

@@ -1,7 +1,6 @@
 #include <msp430.h> 
 
-// Multiple Blink for 5529, wasn't able to test on CCS
-
+// Multiple Blink for 5529
 int main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;			// stop watchdog timer

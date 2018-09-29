@@ -7,3 +7,4 @@
 */.settings/
 */Debug/
 */msp430g2533.ld
+*/lnk_msp430f5529.cmd

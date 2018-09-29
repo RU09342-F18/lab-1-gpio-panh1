@@ -1,11 +1,9 @@
 */.ccsproject
 */.cproject
-*/lnk_msp430g2533.cmd
-*/targetConfigs/
 */.launches/
 */.project
 */.settings/
 */Debug/
-*/msp430g2533.ld
+*/targetConfigs/
+*/lnk_msp430g2553.cmd
 */lnk_msp430f5529.cmd
-*/msp430f5529.ld
